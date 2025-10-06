@@ -350,10 +350,11 @@ content: url("/img/téléchargement (3).svg");
 
     width: 100%;
     justify-content: center;
+
 }
 .avantages{
     display: flex;
-    width: 800px;
+    width: 80%;
     height: 110px;
     display: flex;
     gap:20px;
@@ -361,10 +362,9 @@ content: url("/img/téléchargement (3).svg");
 }
 
 .box{
-    position: relative;
     display: flex;
-    flex-direction: column;
     align-content: space-between;
+    align-items: center;
     padding-top: 25px;
     flex:1;
     text-decoration: none;
@@ -373,15 +373,11 @@ content: url("/img/téléchargement (3).svg");
 }
 
 .box>img{
-    position:absolute;
-    top:20px;
-    left: -70px;
     width: 60px;
     height: 60px;
 }
 
 .avantages h3{
-    width: 200px;
     display: flex;
     font-weight: bold;
         font-family: 'avenir-bold';
@@ -1063,12 +1059,10 @@ header{
 }
 
 .avantages1{
-    margin-top: 300px;
+    margin-top: 250px;
     display: flex;
     width: calc(100% - 2rem);
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
+
 }
 
 .avantages{
@@ -1081,25 +1075,21 @@ header{
 .box{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: calc(100%/3);
 
 }
 
-.box>img{
+.description-avantage{
+
+}
+.description-avantage>h3{
     display: flex;
- position: unset;
 }
 
-.box>h3{
-   display: flex;   
-   justify-content: center;
-}
-
-
-.box>p{
+.description-avantage>p{
     display: none;
 }
-
-
 
 
 
